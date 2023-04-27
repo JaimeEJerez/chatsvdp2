@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@color/light_light_gray">
+
+        <ImageButton
+            android:id="@+id/backArrow4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/arrow_left_circle"
+            android:backgroundTint="@color/darkgray"
+            android:onClick="onClickBackArrow" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="32dp"
+            android:layout_weight="1"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/notificaci_n"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/darkgray"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/notif_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:background="@color/light_light_gray"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="2dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/yourMessagesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_weight="0"
+        android:text="Tus mensages almacenados"
+        android:textSize="10sp" />
+
+</LinearLayout>

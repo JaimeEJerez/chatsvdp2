@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Quick Chat</string>
+    <string name="channel_name">quick_chat_channel_name</string>
+    <string name="channel_description">quick_chat_channel_descr</string>
+    <string name="yo">Yo</string>
+    <string name="destino">Destino</string>
+    <string name="tu_mensaje">Tu mensaje</string>
+    <string name="sending">Enviando</string>
+    <string name="no_leido">No leido</string>
+    <string name="no_leidos">No leidos</string>
+    <string name="name">Nombre</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_conf_code">Código de confirmación**</string>
+    <string name="prompt_email">Ingresa tu email*</string>
+    <string name="prompt_password">Contraseña*</string>
+    <string name="prompt_password2">Confirmar contraseña*</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_do_register">Registrarme</string>
+    <string name="action_register"><u>Registrate</u></string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="action_login"><u>INICIA SESIÓN</u></string>
+    <string name="action_invited">Entrar como invitado</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="welcome">"Bienvenido !"</string>
+    <string name="invalid_username">Correo inválido</string>
+    <string name="invalid_password">La Clave debe tener más de 5 caracteres</string>
+    <string name="invalid_password2">Las claves son diferentes</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="notificaci_n">Notificación</string>
+    <string name="_0">0</string>
+    <string name="notif_sender">Notif Sender</string>
+
+    <string name="home">Quick Chat</string>
+    <string name="content">Notif.</string>
+    <string name="events">Chat</string>
+    <string name="contacts">Contacts</string>
+
+    <string name="forgot_password"><u>¿Olvidadste tu cntraseña?</u></string>
+    <string name="notifications">Notificaciones</string>
+    <string name="new_message">Hay un nuevo mensaje...</string>
+    <string name="required_fields">*Campos obligatorio</string>
+    <string name="back">Regresar</string>
+    <string name="have_no_account">¿No tienes cuenta?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

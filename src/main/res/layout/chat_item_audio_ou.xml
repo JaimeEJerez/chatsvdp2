@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="right"
+    android:layout_gravity="right"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_gravity="right"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="18dp"
+            android:gravity="left"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/speech_bubble_out"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                app:srcCompat="@drawable/play" />
+
+            <FrameLayout
+                android:layout_width="170sp"
+                android:layout_height="44sp"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imageView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="36sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16sp"
+                    android:layout_marginRight="16sp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@android:drawable/divider_horizontal_textfield" />
+
+                <SeekBar
+                    android:id="@+id/seekBar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="44sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="40sp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="7sp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="00:00" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

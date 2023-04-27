@@ -1,0 +1,22 @@
+<!-- drawable/line_4.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="2dp"
+    android:viewportWidth="288"
+    android:viewportHeight="2">
+
+    <group>
+
+        <clip-path
+            android:pathData="M1 1H287H1Z"
+            />
+
+    </group>
+
+    <path
+        android:pathData="M1 1H287H1Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FC7400"
+        />
+
+</vector>

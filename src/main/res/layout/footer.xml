@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orange_area"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:padding="18sp"
+        android:text="Lörem ipsum supratida ude. Isa iktig menskopp. Bemoktigt eur att plasamma hundvissla. Geogisk famåmåsam. Förining nylingar, antimån dera. "
+        android:textColor="@color/light_light_gray"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="48sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/sn_icon_1" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="48sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/sn_icon_2" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="48sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/sn_icon_3" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="48sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/sn_icon_4" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

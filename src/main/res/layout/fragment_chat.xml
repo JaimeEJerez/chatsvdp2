@@ -1,0 +1,205 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_F2F2F2"
+    tools:context="quick_chat.actvt.home.Fragment_Chat">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:background="@color/grey_F2F2F2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@color/activity_background_2"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/backImageButton"
+                style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow_left" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="51sp"
+                android:layout_height="51sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10sp"
+                android:backgroundTint="@color/light_light_gray"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/avatar_n" />
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="40sp"
+                android:layout_weight="10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/notif_senderTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/notif_sender"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/background_dark"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/notif_messageTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9dp"
+                        android:gravity="left|center_vertical"
+                        android:text="Active Now"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/gray_button"
+                        android:textSize="10sp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/notif_numberTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/_0"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/archive"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/archive"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <ListView
+            android:id="@+id/chat_messages_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.95"
+            android:background="@color/grey_F2F2F2"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:transcriptMode="alwaysScroll"></ListView>
+
+        <LinearLayout
+            android:id="@+id/send_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3sp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/recordGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="@android:style/Widget.Material.ProgressBar.Horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:progressTint="@color/PIP_orange"
+                    android:rotation="-90"
+                    android:scaleY="3" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0:00"
+                    android:textSize="20sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/chat_message_edit"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:width="12dp"
+                android:ems="10"
+                android:hint="@string/tu_mensaje"
+                android:inputType="textLongMessage|textMultiLine|textCapSentences"
+                android:maxWidth="12dp"
+                android:visibility="visible">
+
+                <requestFocus />
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="64sp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_camera" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_menu_send"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="48sp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="7sp"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:src="@android:drawable/presence_audio_online" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

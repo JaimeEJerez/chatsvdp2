@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavigationMenuFontStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">48</item>
+    </style>
+</resources>

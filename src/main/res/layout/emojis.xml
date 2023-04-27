@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/emonjis_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7sp"
+    android:layout_marginTop="-7sp"
+    android:layout_marginRight="7sp"
+    android:background="@drawable/emonjis_bg"
+    android:elevation="1dp"
+    android:paddingLeft="4sp"
+    android:paddingRight="4sp">
+
+
+    <RelativeLayout
+        android:id="@+id/emonView01"
+        android:layout_width="28sp"
+        android:layout_height="28sp">
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emon01" />
+
+        <TextView
+            android:id="@+id/imageViewText01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView01"
+            android:layout_alignTop="@id/imageView01"
+            android:layout_alignRight="@id/imageView01"
+            android:layout_alignBottom="@id/imageView01"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emonView02"
+        android:layout_width="28sp"
+        android:layout_height="28sp">
+
+        <ImageView
+            android:id="@+id/imageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emon02" />
+
+        <TextView
+            android:id="@+id/imageViewText02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView02"
+            android:layout_alignTop="@id/imageView02"
+            android:layout_alignRight="@id/imageView02"
+            android:layout_alignBottom="@id/imageView02"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emonView03"
+        android:layout_width="28sp"
+        android:layout_height="28sp">
+
+        <ImageView
+            android:id="@+id/imageView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emon03" />
+
+        <TextView
+            android:id="@+id/imageViewText03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView03"
+            android:layout_alignTop="@id/imageView03"
+            android:layout_alignRight="@id/imageView03"
+            android:layout_alignBottom="@id/imageView03"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emonView04"
+        android:layout_width="28sp"
+        android:layout_height="28sp">
+
+        <ImageView
+            android:id="@+id/imageView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emon04" />
+
+        <TextView
+            android:id="@+id/imageViewText04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView04"
+            android:layout_alignTop="@id/imageView04"
+            android:layout_alignRight="@id/imageView04"
+            android:layout_alignBottom="@id/imageView04"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emonView05"
+        android:layout_width="28sp"
+        android:layout_height="28sp">
+
+        <ImageView
+            android:id="@+id/imageView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emon05" />
+
+        <TextView
+            android:id="@+id/imageViewText05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView05"
+            android:layout_alignTop="@id/imageView05"
+            android:layout_alignRight="@id/imageView05"
+            android:layout_alignBottom="@id/imageView05"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emonView06"
+        android:layout_width="28sp"
+        android:layout_height="28sp">
+
+        <ImageView
+            android:id="@+id/imageView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emon06" />
+
+        <TextView
+            android:id="@+id/imageViewText06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView06"
+            android:layout_alignTop="@id/imageView06"
+            android:layout_alignRight="@id/imageView06"
+            android:layout_alignBottom="@id/imageView06"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

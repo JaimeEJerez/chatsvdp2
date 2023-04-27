@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="370sp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_rounded_bg"
+    android:orientation="vertical"
+    android:paddingLeft="22sp"
+    android:paddingRight="22sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="48sp"
+            android:layout_height="48sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:background="@drawable/empty"
+            android:foregroundGravity="right"
+            android:gravity="center"
+            android:rotation="44"
+            android:text="+"
+            android:textColor="@color/background_dark"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="128sp"
+        app:srcCompat="@drawable/logo_c" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:text="Debes registrarte para poder continuar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/background_dark"
+        android:textSize="22sp" />
+
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="233sp"
+        android:layout_height="45sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="22sp"
+        android:layout_marginTop="39sp"
+        android:layout_marginRight="22sp"
+        android:layout_marginBottom="22sp"
+        android:backgroundTint="@color/orange"
+        android:text="Quiero registrarme"
+        app:cornerRadius="10sp" />
+
+</LinearLayout>
